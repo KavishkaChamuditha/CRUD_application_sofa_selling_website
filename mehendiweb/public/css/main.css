@@ -1,0 +1,127 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* create product code start from here */
+
+body{
+  background-color: #111111 !important;
+}
+
+.my-elemt{
+  background-repeat: no-repeat;
+  content: "";
+  position: fixed;
+  top: 0;
+  margin-left: 400px; 
+  background-image: url("/asset/2.png");
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+}
+
+.submitbtn{
+  margin-top: -400 !important;
+  border-color: white !important;
+  border-width: 2px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  width: 150px;
+  height: 50px;
+}
+
+.submitbtn:hover{
+  background-color: aliceblue !important;
+  font-weight: 500 !important;
+  color: #111111 !important;
+}
+
+.camclebtn{
+  margin-top: -400 !important;
+  border-color: white !important;
+  border-width: 2px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  width: 150px;
+  height: 50px;
+}
+
+.camclebtn:hover{
+  background-color: rgb(128, 0, 0) !important;
+  font-weight: 500 !important;
+  color: #ffffff !important;
+}
+
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width: 900px !important;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    margin-top: 20px !important;
+    font-size: 100%;
+    padding: 0.9em;
+    outline: none;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+    height: 60px;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 2em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(255, 247, 0);
+  }
+
+.selectcss{
+  border-width: 3px !important;
+  border-color: white;
+  border-radius: 10px;
+  height: 50px;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0 1em 0;
+  max-width: 1000px !important;
+  position: relative;
+  background: none !important;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.optionchse{
+  background: #111111  !important;
+  color: white;
+  border: none !important;
+  color: #ffffff;
+}
+
+.fontsize{
+  font-size: 35px !important;
+}
+
+.inputfile{
+  height: 300px !important;
+}
+/* create product code stop from here */
