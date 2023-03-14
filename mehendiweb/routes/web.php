@@ -29,4 +29,14 @@ Route::get('products/store', function () {
     return view('products.store');
 });
 
+Route::get('products/store', function () {
+    return view('products.store');
+});
+
+Route::get('/products/list', [ProductController::class, 'show']);
+
+Route::get('/products/list', [ProductController::class, 'show'])->name('products.list');
+
+
+
 Route::resource('products', ProductController::class);

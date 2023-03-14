@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
+
 class ProductController extends Controller
 {
     /**
@@ -62,15 +63,22 @@ class ProductController extends Controller
     $product->save();
 
     // Redirect the user to the index page with a success message
-    return redirect()->route('products.index')->with('success', 'Product created successfully');
+    return redirect()->route('products.list')->with('success', 'Product created successfully');
+
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Product $product)
+    public function show()
     {
-        //
+        // watch all the data is showing or not 
+        // return Product ::all();
+        //storing data in a variable 
+        $data = Product ::all();
+        return view ('products.list', ['products'=>$data]);
+       
+        //return view('products.list');
     }
 
     /**

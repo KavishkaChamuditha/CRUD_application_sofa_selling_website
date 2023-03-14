@@ -125,3 +125,10 @@ body{
   height: 300px !important;
 }
 /* create product code stop from here */
+
+/* list page code start from here */
+.tablestyle{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+/* list page code stop from here */

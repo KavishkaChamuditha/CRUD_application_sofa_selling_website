@@ -79,14 +79,13 @@
 }
 
 body {
-  font-family: 'Tangerine', cursive !important;
   font-size: 20px !important;
   color: white !important;
   }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Tangerine', cursive !important;
+ 
  }
 
 a {
