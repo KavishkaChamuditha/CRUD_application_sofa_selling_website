@@ -82,8 +82,9 @@ class ProductController extends Controller
 
     public function productview(Product $product)
     {   
-        
+    return view('products.productview', compact('product'));
     }
+
 
     /**
      * Show the form for editing the specified resource.
