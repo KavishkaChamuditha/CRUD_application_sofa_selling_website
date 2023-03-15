@@ -127,8 +127,9 @@ body{
 /* create product code stop from here */
 
 /* list page code start from here */
-.tablestyle{
-  padding: 0px !important;
-  margin: 0px !important;
+.card-border{
+  border-radius: 20px !important;
+  background-color: #212529 !important;
 }
+
 /* list page code stop from here */

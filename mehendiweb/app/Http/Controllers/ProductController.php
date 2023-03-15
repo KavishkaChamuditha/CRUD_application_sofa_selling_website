@@ -75,10 +75,14 @@ class ProductController extends Controller
         // watch all the data is showing or not 
         // return Product ::all();
         //storing data in a variable 
-        $data = Product ::all();
-        return view ('products.list', ['products'=>$data]);
-       
+        $data = Product::latest()->paginate(5);
+        return view('products.list', ['products' => $data]); 
         //return view('products.list');
+    }
+
+    public function productview(Product $product)
+    {   
+        
     }
 
     /**

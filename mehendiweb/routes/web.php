@@ -33,8 +33,10 @@ Route::get('products/store', function () {
     return view('products.store');
 });
 
+//just routing to the list.php file
 Route::get('/products/list', [ProductController::class, 'show']);
 
+//redirecting to the list file 
 Route::get('/products/list', [ProductController::class, 'show'])->name('products.list');
 
 
