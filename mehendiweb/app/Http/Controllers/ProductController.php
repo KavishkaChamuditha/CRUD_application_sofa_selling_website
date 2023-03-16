@@ -92,14 +92,49 @@ class ProductController extends Controller
     public function edit(Product $product)
     {
         //
+        return view('products.edit',compact('product'));
     }
 
     /**
      * Update the specified resource in storage.
      */
+    
     public function update(Request $request, Product $product)
     {
-        //
+        $request->validate([
+            'pro_name'      => 'required',
+            'category'      => 'required',
+            'description'   => 'required',
+            'price'         => 'required',
+            'image'         => 'image|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+    
+        // Update the properties of the product object with the request data
+        $product->pro_name = $request->input('pro_name');
+        $product->category = $request->input('category');
+        $product->description = $request->input('description');
+        $product->price = $request->input('price');
+    
+        // Handle the uploaded image
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $filename = time() . '.' . $image->getClientOriginalExtension();
+            $destinationPath = public_path('/uploads/productsImg');
+            $image->move($destinationPath, $filename);
+            $product->image = $filename;
+        } elseif ($product->image) {
+            // Use the existing image if the image input field is empty
+            $product->image = $product->image;
+        } else {
+            // Set the image to an empty string if there's no existing image and the image input field is empty
+            $product->image = '';
+        }
+    
+        // Save the product to the database
+        $product->save();
+    
+        // Redirect the user to the index page with a success message
+        return redirect()->route('products.list')->with('success', 'Product updated successfully');
     }
 
     /**
