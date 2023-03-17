@@ -33,33 +33,32 @@
         </div>
 
         <label class="text-light fontsize" for="category">Category</label>
-        <select class="selectcss" name="category" id="category" value="{{ $product->category }}" required > 
-            <option class="optionchse" value="hot_sales">hot_sales</option>
-            <option class="optionchse" value="new_arrivales">new_arrivales</option>
-            <option class="optionchse" value="Casual_Shirt">Casual_Shirt</option>
-            <option class="optionchse" value="Accesosires">Accesosires</option>
-            <option class="optionchse" value="Denims">Denims</option>
-            <option class="optionchse" value="index_page_Casual_Shirt">index_page_Casual_Shirt</option>
-            <option class="optionchse" value="index_page_Accesosires">index_page_Accesosires</option>
-            <option class="optionchse" value="index_page_Denims">index_page_Denims</option>
-        </select>
+            <select class="selectcss" name="category" required> 
+                <option class="optionchse" value="hot_sales" {{ $product->category == 'hot_sales' ? 'selected' : '' }}>hot_sales</option>
+                <option class="optionchse" value="new_arrivales" {{ $product->category == 'new_arrivales' ? 'selected' : '' }}>new_arrivales</option>
+                <option class="optionchse" value="Casual_Shirt" {{ $product->category == 'Casual_Shirt' ? 'selected' : '' }}>Casual_Shirt</option>
+                <option class="optionchse" value="Accesosires" {{ $product->category == 'Accesosires' ? 'selected' : '' }}>Accesosires</option>
+                <option class="optionchse" value="Denims" {{ $product->category == 'Denims' ? 'selected' : '' }}>Denims</option>
+                <option class="optionchse" value="index_page_Casual_Shirt" {{ $product->category == 'index_page_Casual_Shirt' ? 'selected' : '' }}>index_page_Casual_Shirt</option>
+                <option class="optionchse" value="index_page_Accesosires" {{ $product->category == 'index_page_Accesosires' ? 'selected' : '' }}>index_page_Accesosires</option>
+                <option class="optionchse" value="index_page_Denims" {{ $product->category == 'index_page_Denims' ? 'selected' : '' }}>index_page_Denims</option>
+            </select>
 
         <div class="inputGroup">
             <input class="widthlabel" type="number" required="" autocomplete="off" name="price" value="{{ $product -> price }}">
             <label class="text-light" for="price">Price</label>
         </div>
 
+        <div class="form-group">
+            <label for="image">Product Image</label>
+            <img src="{{ asset('uploads/productsImg/'.$product->image) }}" alt="Product Image" style="width:140px; height:190px;">
+            <input class="widthlabel inputfile" name="image" type="file" autocomplete="off">
+        </div>
         
-<div class="form-group">
-    <label for="image">Product Image</label>
-    <img src="{{ asset('uploads/productsImg/'.$product->image) }}" alt="Product Image" style="width:140px; height:190px;">
-    <input class="widthlabel inputfile" name="image" type="file" autocomplete="off">
-</div>
-        
-
-        <input type="submit" class="btn btn-success submitbtn" name="submit" id="submit" value="Edit Now" style="margin-top:20px;">
-        <input type="submit" class="btn btn-danger camclebtn" name="cancle" id="cancle" value="CANCLE" style="margin-top:20px;">
+            <input type="submit" class="btn btn-success submitbtn" name="submit" id="submit" value="Edit Now" style="margin-top:20px;">
+            <input type="submit" class="btn btn-danger camclebtn" name="cancle" id="cancle" value="CANCLE" style="margin-top:20px;">
     </div>
 </form>
 </div>
 </div>
+

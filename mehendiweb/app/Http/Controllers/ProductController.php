@@ -36,7 +36,7 @@ class ProductController extends Controller
             'category'      => 'required',
             'description' => 'required',
             'price'         => 'required',
-            'image'         => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image'         => 'required|image|mimes:jpeg,png,jpg,gif',
         ]);
 
      // Create a new product object
@@ -143,5 +143,8 @@ class ProductController extends Controller
     public function destroy(Product $product)
     {
         //
+        $product -> delete();
+
+        return redirect()->route('products.list')->with('Success', 'Product is successfully deleted');
     }
 }

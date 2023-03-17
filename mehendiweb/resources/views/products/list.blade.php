@@ -40,12 +40,12 @@
             <td scope="col"> <img src="{{ asset('uploads/productsImg/'.$product->image) }}" alt="Product Image" style="width:140px; height:190px;"></td>
             <td scope="col" style="width:200px;">{{ $product -> created_at }}</td>
             <td> 
-                <form action="{{ route('products.destroy', $product -> id) }}" method= "POST">
+                <form action="{{ route('products.destroy', $product -> id) }}" method= "POST" enctype="multipart/form-data">
                     <a href="{{ route('products.edit', $product -> id) }}"> <div class="btn btn-primary">Edit</div> </a>
                     <a href="{{ route('products.productview', $product-> id) }}" class="btn btn-success">Show</a>
                     @csrf
                     @method('DELETE')
-                     <button type="submit" class="btn btn-danger">Delete</button>
+                    <button type="submit" onclick="return confirm('Are you sure you want to delete this product?');" class="btn btn-danger">Delete</button>
                   </form>
             </td>
         </tr>            
@@ -59,4 +59,5 @@
 </div>
 </div>
 </body>
+
 </html>

@@ -37,13 +37,15 @@ Route::get('/products/productview{product}', [ProductController::class, 'product
 
 Route::get('/products/edit{product}', [ProductController::class, 'edit'])->name('products.edit');
 
-
 //just routing to the list.php file
 Route::get('/products/list', [ProductController::class, 'show']);
 
 //redirecting to the list file 
 Route::get('/products/list', [ProductController::class, 'show'])->name('products.list');
 
-
-
 Route::resource('products', ProductController::class);
+
+//custormer side route 
+Route::get('custormer/index', function () {
+    return view('custormer.index');
+});
