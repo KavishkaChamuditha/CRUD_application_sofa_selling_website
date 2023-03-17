@@ -58,17 +58,17 @@
               <div id="card">
                 <img src="{{ URL('images/1.png') }}" alt="" style="width:200px;">
               <p id="prompt">Hello Guys Let's Order a Coffee</p>
-                <div class="title btn btn-midddle">Order Now</div>
-               
+                <div class="title btn btn-midddle">Order Now</div>            
               </div>
             </div>
           </div>
         </div>
     </div>
 
+  
           <div class="col-md-12 margincard">
+            <h1 class="textclr text-center txtwhat">What we Offer</h1>
             <div class="card-deck">
-    
               <div class="card cardbackgrnd">
                 <img class="card-img-top" src="{{ URL('images/imgcolor.jpg') }}" alt="Card image cap">
                 <div class="card-body">

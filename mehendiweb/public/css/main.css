@@ -10,6 +10,11 @@ body{
   background-color: #231D19 !important;
 } 
 
+.textclr{
+  color: #D89254 !important;
+}
+
+
 
 /* nav bar code start from here */
 nav {
@@ -155,7 +160,11 @@ nav .burger .line {
 }
 
 .margincard{
-  margin-top: 500px;
+  margin-top: 440px;
+}
+
+.txtwhat{
+  margin-bottom: 100px !important;
 }
 
 /* card codes stop from here */
@@ -316,9 +325,6 @@ nav .burger .line {
 
 
 
-
-
-
 /*works janky on mobile :<*/
 .container {
   position: relative;
@@ -341,7 +347,7 @@ nav .burger .line {
   align-items: center;
   border-radius: 20px;
   transition: 700ms;
-  background: linear-gradient(43deg,  #212529 0%, rgb(12, 8, 11) 46%, rgb(18, 17, 14) 100%);
+  background: linear-gradient(43deg, rgb(15, 16, 24) 0%, rgb(17, 17, 17) 46%, rgb(18, 17, 14) 100%);
 }
 
 .subtitle {
@@ -421,7 +427,7 @@ nav .burger .line {
 
 #card::before {
   content: '';
-  background: linear-gradient(43deg, rgb(20, 20, 12) 0%, rgb(8, 5, 7) 46%, rgb(18, 17, 14) 100%);
+  background: linear-gradient(43deg, rgb(17, 17, 0.3) rgb(23, 19, 22) 37) 46%, rgb(18, 17, 14) 100%);
   filter: blur(2rem);
   opacity: 30%;
   width: 100%;
