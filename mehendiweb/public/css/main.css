@@ -1,4 +1,3 @@
-
 *{
   padding: 0;
   margin: 0;
@@ -7,7 +6,7 @@
 /* create product code start from here */
 
 body{
-  background-color: #231D19 !important;
+  background-color: #0F1013 !important;
 } 
 
 .textclr{
@@ -15,13 +14,12 @@ body{
 }
 
 
-
 /* nav bar code start from here */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(216, 146, 84, 0.4); /* background color with 50% opacity */
+  background-color: #322019; 
   height: 100px;
   color: #fff;
   position: relative !important;
@@ -102,12 +100,10 @@ nav .burger .line {
 }
 /* nav bar code finish from here */
 
-
-
 /* list page code start from here */
 .card-border{
   border-radius: 20px !important;
-  background-color: #212529 !important;
+  background-color: #231103 !important;
 }
 
 .btn-midddle{
@@ -124,7 +120,7 @@ nav .burger .line {
 /* banner code start from here */
 .backgroundclr{
   height: 800px !important;
-  background-color: #251713; 
+  background-color: #322019; 
 }
 
 .img-class{
@@ -135,24 +131,37 @@ nav .burger .line {
 
 .img-two-class{
   margin-top: 100px !important;
-  margin-left: 700px;
+  margin-left: 800px;
   width: 600px !important;  
 }
 
 
 .banne-txt{
-  margin-top: -800px !important;
+  margin-top: -1000px !important;
   margin-left: 100px;
-  font-size: 150px;
-  font-family: 'Tilt Warp', cursive;
+  font-size: 100px;
+  font-family: 'Lilita One', cursive;
   color: #D89254 !important;
 }
+
+.text-margin{
+  margin-left: 110px;
+}
+
+.bannebtn-margin{
+  margin-left: 110px;
+  width: 140px !important;
+  font-weight: 500 !important;
+  background-color: #D89254 !important;
+}
+
 
 /* banner code finish from here */
 
 /* card codes start from here */
 .cardbackgrnd{
-  background-color: #111111 !important;
+  background-color: #231103 !important;
+  border-radius: 50px !important;
 }
 
 .card-title{
@@ -160,11 +169,11 @@ nav .burger .line {
 }
 
 .margincard{
-  margin-top: 440px;
+  margin-top: 400px;
 }
 
 .txtwhat{
-  margin-bottom: 100px !important;
+  margin-bottom: 0px !important;
 }
 
 /* card codes stop from here */

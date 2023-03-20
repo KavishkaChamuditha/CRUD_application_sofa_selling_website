@@ -21,12 +21,14 @@
 <div class="backgroundclr">
     <img class="img-two-class" src="{{ URL('images/pngwing.com (2).png') }}" alt="">  
      <img class="img-class" src="{{ URL('images/pngwing.com (1).png') }}" alt="">
-     <h1 class="banne-txt">COFFEE <br> SUPPLIES</h1>
+     <h1 class="banne-txt">SRI LANKA'S<br> COFFEE SUPPLIES</h1>
+     <P class="text-light text-margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Assumenda cumque impedit sapiente quaerat repudiandae, nconsequatur. <br> Deleniti mollitia nemo quas repudiandae.</P>
+     <div class="btn bannebtn-margin">Click Here</div>
 </div>
 
  <div class="container">
     <div class="row">
-        <h1 class="text-light">READY TO ORDER A COFFEE</h1>
+        {{-- <h1 class="text-light">READY TO ORDER A COFFEE</h1> --}}
        
           <div class="container noselect" style="margin-top:300px;">
             <div class="canvas">
@@ -56,8 +58,8 @@
               <div class="tracker tr-24"></div>
               <div class="tracker tr-25"></div>
               <div id="card">
-                <img src="{{ URL('images/1.png') }}" alt="" style="width:200px;">
-              <p id="prompt">Hello Guys Let's Order a Coffee</p>
+                <img src="{{ URL('images/Untitled design.png') }}" alt="" style="width:300px;">
+              <p id="prompt">Hello Guys Let's Order a Sri Lankan Finast Coffee</p>
                 <div class="title btn btn-midddle">Order Now</div>            
               </div>
             </div>
@@ -68,56 +70,48 @@
   
           <div class="col-md-12 margincard">
             <h1 class="textclr text-center txtwhat">What we Offer</h1>
-            <div class="card-deck">
+            <div class="card-deck">.
               <div class="card cardbackgrnd">
-                <img class="card-img-top" src="{{ URL('images/imgcolor.jpg') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ URL('images/card (1).jpg') }}" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Drink a Coffee</h5>
+                  <h5 class="card-title text-center">Drink a Coffee</h5>
                   <p class="card-text">This is the text for Card 1.</p>
                 </div>
               </div>
     
               <div class="card cardbackgrnd">
-                <img class="card-img-top" src="{{ URL('images/imgcolor.jpg') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ URL('images/card (2).jpg') }}" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Order a Coffee</h5>
+                  <h5 class="card-title text-center">Order a Coffee</h5>
                   <p class="card-text">This is the text for Card 2.</p>
                 </div>
               </div>
     
               <div class="card cardbackgrnd">
-                <img class="card-img-top" src="{{ URL('images/imgcolor.jpg') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ URL('images/card (3).jpg') }}" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Eat & Drink</h5>
+                  <h5 class="card-title text-center">Eat & Drink</h5>
                   <p class="card-text">This is the text for Card 3.</p>
                 </div>
               </div>
     
               <div class="card cardbackgrnd">
-                <img class="card-img-top" src="{{ URL('images/imgcolor.jpg') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ URL('images/card (4).jpg') }}" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Don't Drink</h5>
+                  <h5 class="card-title text-center">Don't Drink</h5>
                   <p class="card-text">This is the text for Card 4.</p>
                 </div>
               </div>
     
               <div class="card cardbackgrnd">
-                <img class="card-img-top" src="{{ URL('images/imgcolor.jpg') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ URL('images/card (5).jpg') }}" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Drink One Coffee</h5>
+                  <h5 class="card-title text-center">Drink One Coffee</h5>
                   <p class="card-text">This is the text for Card 5.</p>
               </div>
-    
-
-
-
-
-
-
 
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  
+ 
+      <h1 class="textclr text-center txtwhat">What we Offer</h1>
