@@ -9,6 +9,7 @@ body{
   background-color: #141311 !important;
 } 
 
+/* banner code start from here */
 .textclr{
   color: #D89254 !important;
 }
@@ -24,16 +25,253 @@ body{
 }
 
 .adrianafurniture{
-  font-size: 200px;
+  font-size: 170px;
   text-align: center;
   color: #FAF2E9 !important;
+  font-family: 'Cinzel', serif;
 }
 
 .imgtext{
   margin-top: 350px;
   color: #FAF2E9 !important;
-  margin-left: 20px;
+  margin-left: 20px; 
 }
+
+.ptext{
+  color: #FAF2E9 !important;
+  margin-left: 20px; 
+}
+
+.btnbancode{
+  margin-left: 1400px;
+  width: 140px;
+  height: 70px;
+  border: 2px solid rgb(255, 255, 255) !important;
+  border-radius: 40px !important;
+}
+
+.btnbancode:hover{
+  background-color: #181008;
+}
+/* banner code stop from here */
+
+/* aboue section code start from here */
+.abutheading{
+  margin-top: 0px;
+  font-size: 80px;
+  margin-left: 50px;
+  font-family: 'Cinzel', serif;
+}
+
+.usfont{
+  font-size: 80px;
+  font-family: 'Courgette', cursive !important; 
+}
+
+.aboutusimg{
+  margin-left: 700px;
+  border-radius: 20px;
+}
+
+.textaboutus{
+  margin-right: 400px !important;
+  word-wrap: break-word !important;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.textanotherside{
+  margin-bottom: -180px;
+}
+
+.textanothersideseco{
+  margin-top: 20px !important;
+}
+/* about section stop from here */
+
+/* selected works code start from here */
+.sideimgseco{
+  margin-left: 20px !important;
+  border-radius: 20px;
+  margin-top: -220px !important;
+}
+
+.selectxt{
+  margin-left: 900px;
+  color: #FAF2E9 !important;
+  font-family: 'Cinzel', serif;
+  margin-top: 200px !important;
+}
+
+.selectxt{
+  font-size: 80px;
+}
+
+.workstxt{
+  font-family: 'Courgette', cursive !important; 
+}
+
+.besttext{
+  margin-left: 900px;
+  color: #FAF2E9;
+  font-size: 30px !important;
+}
+
+/* selected works stop from here */
+
+/* cards codes start from here */
+.card-clr{
+  border: none !important; 
+  border: 1px solid #790252 !important;
+  border-radius: 20px !important;
+}
+
+.cardimg{
+  border-radius: 20px 20px 0px 0px;
+}
+
+.btncart{
+  position: absolute;
+  margin-top: -20px !important;
+  margin-left: 200px !important;
+  width: 70px;
+  height: 100px;
+  align-items: center !important;
+  opacity: 0 !important;
+  background-color: #4C0027 !important;
+  border-color: #4C0027!important;
+  border-radius: 0px 0px 40px 40px !important;
+}
+
+.card:hover .btncart {
+  opacity: 1 !important;
+  transition: 0.5s;
+  margin-top: -2px !important;
+}
+
+.btnwishlist{
+  position: absolute;
+  margin-top: -20px !important;
+  margin-left: 40px !important;
+  width: 70px;
+  height: 100px;
+  align-items: center !important;
+  opacity: 0 !important;
+  background-color: #4C0027 !important;
+  border-color: #4C0027!important;
+  border-radius: 0px 0px 40px 40px !important;
+}
+
+.card:hover .btnwishlist {
+  opacity: 1 !important;
+  transition: 0.5s;
+  margin-top: -2px !important;
+}
+
+.btnbuy{
+  position: absolute;
+  margin-top: 100px !important;
+  margin-left: 30px !important;
+  width: 200px;
+  opacity: 0 !important;
+  background-color: #4C0027 !important;
+  border-color: #4C0027!important;
+  border-radius: 20px !important;
+}
+
+.card:hover .btnbuy {
+  opacity: 1 !important;
+  transition: 0.5s;
+  margin-top: -80px !important;
+}
+
+.salebtn{
+  position: absolute;
+  width: 60px;
+  border-radius: 20px 0px 0px 0px !important;
+}
+
+/* cards codes stop from here */
+
+/* responsive codes start from here */
+/* Mobile Devices */
+@media (max-width: 768px) {
+  /* CSS for smaller screens goes here */
+ .img-two-class{
+  width: 390px !important;
+  height: 300px;
+ }
+
+ .logo{
+  width: 100px !important;
+ }
+
+ .burger{
+  margin-top: -80px;
+ }
+
+ .adrianafurniture{
+  font-size: 20px;
+  margin-top: -20px;
+ }
+
+ .abutheading{
+  font-size: 30px;
+  margin-bottom: -80px;
+ }
+
+ .usfont{
+  font-size: 20px;
+ }
+
+ .aboutusimg{
+  width: 394px !important;
+  margin-left: -5px !important;
+  margin-top: 100px;
+ }
+
+ .btnbancode{
+  width: 30px !important;
+  height: 30px;
+  margin-left: 300px;
+ }
+
+ .fas{
+  font-size: 20px !important;
+  margin-left: -8px;
+  margin-bottom: -8px !important;
+ }
+
+ .imgtext{
+  margin-top: 10px;
+  font-size: 20px;
+ }
+
+ .ptext{
+  font-size: 10px;
+ }
+ 
+ .textaboutus{
+  margin-right: 10px !important;
+ }
+
+.textanothersideseco{
+  margin-top: -20px !important;
+}
+
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS for medium-sized screens goes here */
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+  /* CSS for larger screens goes here */
+}
+/* responsive codes stop from here */
+
 
 
 /* nav bar code start from here */
@@ -93,7 +331,7 @@ nav .burger .line {
     right: 0px;
     height: 100vh;
     top: 11.80vh;
-    background-color: rgba(216, 146, 84, 0.4); /* background color with 50% opacity */
+    background-color: rgba(8, 8, 8, 0.4); /* background color with 50% opacity */
     display: flex;
     flex-direction: column;
     align-items: center;
