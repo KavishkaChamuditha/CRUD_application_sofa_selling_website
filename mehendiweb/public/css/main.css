@@ -6,11 +6,33 @@
 /* create product code start from here */
 
 body{
-  background-color: #0F1013 !important;
+  background-color: #141311 !important;
 } 
 
 .textclr{
   color: #D89254 !important;
+}
+.backgroundclr {
+  position: relative;
+}
+
+.nav-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.adrianafurniture{
+  font-size: 200px;
+  text-align: center;
+  color: #FAF2E9 !important;
+}
+
+.imgtext{
+  margin-top: 350px;
+  color: #FAF2E9 !important;
+  margin-left: 20px;
 }
 
 
@@ -19,10 +41,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #322019; 
+  /* background-color: #322019;  */
   height: 100px;
   color: #fff;
-  position: relative !important;
+  /* position: relative !important; */
 }
 
 nav .logo {
@@ -99,315 +121,4 @@ nav .burger .line {
   }
 }
 /* nav bar code finish from here */
-
-/* list page code start from here */
-.card-border{
-  border-radius: 20px !important;
-  background-color: #231103 !important;
-}
-
-.btn-midddle{
-  background: #D89254 !important;
-  width: 200px !important;
-  height: 40px;
-  font-size: 20px !important;
-  color: #fff !important;
-
-}
-/* list page code stop from here */
-
-/* custormer page styles start from here */
-/* banner code start from here */
-.backgroundclr{
-  height: 800px !important;
-  background-color: #322019; 
-}
-
-.img-class{
-  width: 500px;
-  margin-left: 1163px;
-  margin-top: 30px;
-}
-
-.img-two-class{
-  margin-top: 100px !important;
-  margin-left: 800px;
-  width: 600px !important;  
-}
-
-.banne-txt{
-  margin-top: -1000px !important;
-  margin-left: 100px;
-  font-size: 100px;
-  font-family: 'Lilita One', cursive;
-  color: #D89254 !important;
-}
-
-.text-margin{
-  margin-left: 110px;
-}
-
-.bannebtn-margin{
-  margin-left: 110px;
-  width: 140px !important;
-  font-weight: 500 !important;
-  background-color: #D89254 !important;
-}
-/* banner code finish from here */
-
-/* card codes start from here */
-.cardbackgrnd{
-  background-color: #231103 !important;
-  border-radius: 50px !important;
-}
-
-.card-title{
-  color: #D89254 !important;
-}
-
-.margincard{
-  margin-top: 400px;
-}
-
-.txtwhat{
-  margin-top: 50px;
-  margin-bottom: 50px !important;
-}
-
-/* card codes stop from here */
-
-/* responsive codes start from here */
-/* Mobile Devices */
-@media (max-width: 768px) {
-  /* CSS for smaller screens goes here */
-  .img-two-class{
-    width: 440px !important;  
-    margin-left: -70px !important;
-    margin-top: 100px !important;
-  }
-
-  .img-class{
-    margin-top: 100px;
-    margin-left: -10px !important;
-    width: 400px;
-  }
-
-  .banne-txt{
-    position: absolute;
-    /* top: 50%; */
-    left: 10%; 
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-  }
-}
-
-/* Tablets */
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* CSS for medium-sized screens goes here */
-}
-
-/* Desktops */
-@media (min-width: 1025px) {
-  /* CSS for larger screens goes here */
-}
-/* responsive codes stop from here */
-
-
-/* create product code start from here */
-.my-elemt{
-  background-repeat: no-repeat;
-  content: "";
-  position: fixed;
-  top: 0;
-  margin-left: 400px; 
-  background-image: url("/asset/2.png");
-  opacity: 0.2;
-  width: 100%;
-  height: 100%;
-}
-
-.submitbtn{
-  margin-top: -400 !important;
-  border-color: white !important;
-  border-width: 2px !important;
-  color: white !important;
-  border-radius: 10px !important;
-  width: 150px;
-  height: 50px;
-}
-
-.submitbtn:hover{
-  background-color: aliceblue !important;
-  font-weight: 500 !important;
-  color: #111111 !important;
-}
-
-.camclebtn{
-  margin-top: -400 !important;
-  border-color: white !important;
-  border-width: 2px !important;
-  color: white !important;
-  border-radius: 10px !important;
-  width: 150px;
-  height: 50px;
-}
-
-.camclebtn:hover{
-  background-color: rgb(128, 0, 0) !important;
-  font-weight: 500 !important;
-  color: #ffffff !important;
-}
-
-.inputGroup {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 1em 0 1em 0;
-    max-width: 900px !important;
-    position: relative;
-  }
-  
-  .inputGroup input {
-    margin-top: 20px !important;
-    font-size: 100%;
-    padding: 0.9em;
-    outline: none;
-    color: white;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: transparent;
-    border-radius: 20px;
-    width: 100%;
-    height: 60px;
-  }
-  
-  .inputGroup label {
-    font-size: 100%;
-    position: absolute;
-    left: 0;
-    padding: 2em;
-    margin-left: 0.5em;
-    pointer-events: none;
-    transition: all 0.3s ease;
-    color: rgb(100, 100, 100);
-  }
-  
-  .inputGroup :is(input:focus, input:valid)~label {
-    transform: translateY(-50%) scale(.9);
-    margin: 0em;
-    margin-left: 1.3em;
-    padding: 0.4em;
-  }
-  
-  .inputGroup :is(input:focus, input:valid) {
-    border-color: rgb(255, 247, 0);
-  }
-
-.selectcss{
-  border-width: 3px !important;
-  border-color: white;
-  border-radius: 10px;
-  height: 50px;
-  font-family: 'Segoe UI', sans-serif;
-  margin: 1em 0 1em 0;
-  max-width: 1000px !important;
-  position: relative;
-  background: none !important;
-  margin-left: 20px;
-  color: #ffffff;
-}
-
-.optionchse{
-  background: #111111  !important;
-  color: white;
-  border: none !important;
-  color: #ffffff;
-}
-
-.fontsize{
-  font-size: 20px !important;
-}
-
-.inputfile{
-  height: 300px !important;
-}
-/* create product code stop from here */
-
-/* products cards code start from here */
-.card-clr{
-  background-color: transparent !important;
-  border: none !important; 
-  border: 1px solid #b56520 !important;
-  border-radius: 20px !important;
-}
-
-.btncart{
-  position: absolute;
-  left: 80%;
-  border-radius: 20px !important;
-  height: 60px;
-  padding: 10px;
-  width: 60px;
-  text-transform: capitalize;
-  cursor: pointer;
-  /* opacity: 0; */
-  background-color: #b56520 !important;
-  border-color: #b56520!important;
-  margin-top: 20px;
-}
-
-.card:hover .btncart {
-  opacity: 1;
-  transition: 0.5s;
-  margin-left: -240px !important;
-}
-
-.btnwishlist{
-  position: absolute;
-  margin-top: 100px;
-  left: 80%;
-  border-radius: 20px !important;
-  height: 60px;
-  padding: 10px;
-  width: 60px;
-  text-transform: capitalize;
-  cursor: pointer;
-  background-color: #b56520 !important;
-  border-color: #b56520!important;
-}
-
-.card:hover .btnwishlist {
-  opacity: 1;
-  transition: 0.5s;
-  margin-left: -240px !important;
-}
-
-.btnbuy{
-  position: absolute;
-  margin-top: 100px !important;
-  margin-left: 30px !important;
-  width: 200px;
-  opacity: 0 !important;
-  background-color: #b56520 !important;
-  border-color: #b56520!important;
-  border-radius: 20px !important;
-}
-
-.card:hover .btnbuy {
-  opacity: 1 !important;
-  transition: 0.5s;
-  margin-top: -80px !important;
-}
-
-.hotcoffee{
-  display: inline-block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-
-
-
-/* products cards codes stop from here */
-
-
-
-
 
