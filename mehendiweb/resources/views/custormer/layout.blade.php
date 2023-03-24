@@ -45,36 +45,97 @@
          <img class="fotterimg p-2" src="{{ URL ('images/letswork.jpg') }}" alt="">
         </div>
 
-
         <div class="address-container">
             <div class="left-column">
         <h2 class="p-2 text-light addrestxt" style="">Address</h2>
+        <h2 class="p-2 text-light addrestxt" style="">Phone</h2>
+        <h2 class="p-2 text-light addrestxt" style="">Email</h2>
         </div>
 
         <div class="right-column">
             <p class="text-light marginaddres">123 Anywhere St., Any City
                 State, Country 12345</p>
-         </div>
+            <p class="text-light marginaddres" style="margin-top: 60px;">(123) 456 7890</p>
+            <p class="text-light marginaddres" style="margin-top: 62px;">hello@reallygreatsite.com</p>
+         
+        </div> 
          
     </div>
     
-
-<br>
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
+    <section class="">
+        <!-- Footer -->
+        <footer class=" text-white text-center fotter">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Footer Content</h5>
+      
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                  molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                  aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                </p>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Links</h5>
+      
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="text-white">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </section>
 
     </footer>
 </body>
