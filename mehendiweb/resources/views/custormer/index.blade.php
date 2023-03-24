@@ -30,12 +30,40 @@
 
 {{-- nav and ban code stop from here --}}
 
-{{-- cards code start from here --}}
+
 <div class="container">
   <div class="row"> 
 
-  @foreach ($products as $product)
-    
+    <h1 class="text-light text-center" style="margin-top:30px;">New Arrivales</h1>
+{{-- cards code start from here --}}
+    @foreach ($products as $product)    
+    <div class="col-lg-4 col-md-4">     
+      <div class="card card-clr" style="width:20rem;">
+        <button class="btn btn-danger btncart">
+          <i class="fa fa-shopping-cart"  style="font-size: 30px;"></i>
+        </button> 
+        <button class="btn btn-danger btnwishlist">
+          <i class="fa-solid fa-heart" style="font-size: 30px;"></i>
+        </button>
+        <img class="cardimg" src="{{ asset('uploads/productsImg/'.$product->image) }}" alt="" >
+      <div class="card-body">
+        <button class="btn btn-danger btnbuy">Buy Now</button>
+        <h5 class="card-title text-center fontsize">{{ $product -> pro_name }}</h5>
+        <h5 class="card-title text-center fontsize">RS. {{ $product -> price }}</h5>
+      </div>
+      </div>
+    </div>
+  @endforeach
+</div>{{-- container finish from here --}}
+</div>{{-- row finish from here --}}
+
+<img class="secondimglass" src="{{ URL('images/second_cover imag.jpg') }}" alt="" style="width:100%; margin-top:50px"> 
+
+<div class="container">
+<div class="row">
+
+{{-- cards codes start  from here --}}
+@foreach ($newArrivals as $product)    
   <div class="col-lg-4 col-md-4">     
     <div class="card card-clr" style="width:20rem;">
       <button class="btn btn-danger btncart">
@@ -48,19 +76,48 @@
     <div class="card-body">
       <button class="btn btn-danger btnbuy">Buy Now</button>
       <h5 class="card-title text-center fontsize">{{ $product -> pro_name }}</h5>
+      <h5 class="card-title text-center fontsize">RS. {{ $product -> price }}</h5>
     </div>
     </div>
   </div>
-  @endforeach  
-
-</div>
-</div>
-
-
+@endforeach
 {{-- cards codes stop from here --}}
+</div>  {{-- container finish from here --}}
+</div>  {{-- row finish from here --}}
 
+ 
+    <div style="position:relative;">
+      <img class="secondimglass" src="{{ URL('images/sofa.jpg') }}" alt="" style="width:100%; margin-top:50px">
+      <div class="imgtextcha">
+        we enjoy the challenge of <br> transforming a space into <br> something fresh and engaging.
+      </div>
+    </div>
+    
 
-  <h1 class="text-light abutheading">About <br> <div class="usfont"> Us</div> </h1>
+    <div class="container">
+      <div class="row">
+        @foreach ($newArrivals as $product)    
+  <div class="col-lg-4 col-md-4">     
+    <div class="card card-clr" style="width:20rem;">
+      <button class="btn btn-danger btncart">
+        <i class="fa fa-shopping-cart"  style="font-size: 30px;"></i>
+      </button> 
+      <button class="btn btn-danger btnwishlist">
+        <i class="fa-solid fa-heart" style="font-size: 30px;"></i>
+      </button>
+      <img class="cardimg" src="{{ asset('uploads/productsImg/'.$product->image) }}" alt="" >
+    <div class="card-body">
+      <button class="btn btn-danger btnbuy">Buy Now</button>
+      <h5 class="card-title text-center fontsize">{{ $product -> pro_name }}</h5>
+      <h5 class="card-title text-center fontsize">RS. {{ $product -> price }}</h5>
+    </div>
+    </div>
+  </div>
+@endforeach
+      </div>
+    </div>
+
+    <h1 class="abutheading">About <br> <div class="usfont"> Us</div> </h1>
 
     <img class="aboutusimg" src="{{ URL ('images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg') }}" alt="" style="width:900px;">
       <p class="text-light text-end textaboutus">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Earum dolor eligendi, molestiae accusamus tempore officia suscipit</p>
@@ -69,6 +126,20 @@
 
 
       <h1 class="selectxt">Selected <br> <div class="workstxt"> Works </div></h1>
-        <h3 class="text-iight besttext">Best Sofa set in Sri Lank</h3>
-    <img class="sideimgseco" src="{{ URL ('images/Untit.jpg') }}" alt=""> 
+        <h3 class="text-iight besttext">Best Sofa set's in Sri Lanka</h3>
+        <p class="text-light selecttext">Residential Project A </p>
+        <p  class="text-light fulltext">Full interior design of client's single-detached home</p>
+
+    <img class="sideimgseco" src="{{ URL ('images/firstimg.jpg') }}" alt="" style="width:800px;"> 
     
+
+    {{-- two section images codes start from here --}}
+    <img class="imgsections" src="{{ URL ('images/sidefirstimg.jpg') }}" alt="" style="width:600px;"> 
+    <img class="imgsection" src="{{ URL ('images/secondimgjpg.jpg') }}" alt="" style="width:800px;"> 
+    <p class="text-light textmargin">At the client's request, the project theme was minimalist and modern. </p> 
+    {{-- two section images codes stops from here --}}
+    
+
+    @section('content')
+    
+    @endsection

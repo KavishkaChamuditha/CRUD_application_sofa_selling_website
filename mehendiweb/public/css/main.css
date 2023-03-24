@@ -20,7 +20,6 @@ body{
   height: 40px;
   font-size: 20px !important;
   color: #fff !important;
-
 }
 
 /* banner code start from here */
@@ -71,9 +70,10 @@ body{
 
 /* aboue section code start from here */
 .abutheading{
-  margin-top: 0px;
+  margin-top: 40px;
   font-size: 80px;
   margin-left: 50px;
+  color: #D89254 !important;
   font-family: 'Cinzel', serif;
 }
 
@@ -107,14 +107,15 @@ body{
 .sideimgseco{
   margin-left: 20px !important;
   border-radius: 20px;
-  margin-top: -220px !important;
+  margin-top: -500px !important;
 }
 
 .selectxt{
   margin-left: 900px;
   color: #FAF2E9 !important;
   font-family: 'Cinzel', serif;
-  margin-top: 200px !important;
+  margin-top: 300px !important;
+  color: #D89254 !important;
 }
 
 .selectxt{
@@ -131,15 +132,113 @@ body{
   font-size: 30px !important;
 }
 
+.selecttext{
+  margin-top: 80px !important;
+  margin-left: 900px;
+  font-size: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.fulltext{
+  margin-left: 900px;
+  font-size:20px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.imgsections{
+  margin-bottom: -900px !important;
+  margin-left: -700px !important;
+  border-radius: 40px;
+}
+
+.imgsection{
+  margin-bottom: -900px;
+  margin-left: 100px;
+  border-radius: 40px;
+}
+
+.textmargin{
+  margin-top: 700px;
+  margin-left: 120px;
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+}
 /* selected works stop from here */
+
+/* third big image code start from here */
+.textchallenge{
+  position: absolute !important;
+}
+
+.imgtextcha{
+  position:absolute; 
+  top:30%; 
+  margin-left:400px !important;  
+  transform:translate(-50%, -50%);
+  color:#fff; 
+  font-size: 100px;
+  font-family: 'Tangerine', cursive;
+  color: #FAF2E9!important
+}
+
+/* third big image code start from here */
+/* fotter codes start from here */
+.fotter{
+  margin-top: 200px;
+  background-color: #20262E !important;
+}
+
+.fotterimg{
+  width: 700px;
+  height: 340px !important;
+  border-radius: 40px;
+  margin-top: -180px !important;
+}
+
+.fottertext{
+  margin-top: 40px;
+  margin-left: 120px;
+  font-size: 80px;
+  color: #D89254 !important;
+  font-family: 'Cinzel', serif;
+}
+
+/* footer codes finish from here */
 
 /* cards codes start from here */
 .card-clr{
   border: none !important; 
-  border: 1px solid #088967 !important;
+  border: 1px solid #ffffff !important;
   border-radius: 20px !important;
   background: none !important;
+  margin-top: 40px;
 }
+
+.lineone{
+  transform: rotate(90deg); /* rotate the image 90 degrees */
+  margin-top: 170px !important;
+}
+
+.addrestxt{
+  /* margin-top: -10px !important; */
+  margin-top: 30px;
+  margin-left: 1000px !important;
+}
+
+.address-container {
+  display: flex;
+}
+
+.left-column,
+.right-column {
+  flex-basis: 50%;
+  padding: 0 10px;
+}
+
+.marginaddres{
+  margin-top: 50px;
+}
+
 
 .cardimg{
   border-radius: 20px 20px 0px 0px;
@@ -273,10 +372,70 @@ body{
  
  .textaboutus{
   margin-right: 10px !important;
+  
  }
 
 .textanothersideseco{
   margin-top: -20px !important;
+}
+
+.secondimglass{
+  width: 330px !important;
+  height: 250px;
+}
+
+.selectxt{
+  margin-left: 20px;
+  font-size: 40px;
+  margin-top: 100px !important;
+  font-size: 75px !important;
+}
+
+.sideimgseco{
+  margin-top: 0px !important;
+  width: 350px !important;
+}
+
+.besttext{
+  margin-left: 10px;
+}
+
+.selecttext{
+  margin-left: 10px;
+}
+
+.fulltext{
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.abutheading{
+  margin-top: 40px;
+  font-size: 80px;
+}
+
+.usfont{
+  font-size: 50px;
+}
+
+.imgsections{
+  width: 330px !important;
+  height: 250px;
+  margin-top: 40px;
+  margin-left: 30px !important;
+}
+
+.imgsection{
+  width: 330px !important;
+  height: 250px;
+  margin-top: 330px;
+  margin-left: 30px !important;
+}
+
+.textmargin{
+  margin-left: 40px !important;
+  margin-right: auto !important;
+  margin-top: 620px;
 }
 
 }

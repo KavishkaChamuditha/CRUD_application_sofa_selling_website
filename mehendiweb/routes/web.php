@@ -50,9 +50,11 @@ Route::get('custormer/index', function () {
     return view('custormer.index');
 });
 
-
-//just routing to the list.php file
+// customer side view codes start from here
+//just routing to the customer index.php file
 Route::get('/custormer/index', [ProductController::class, 'custormershow']);
 
-//redirecting to the list file 
+//redirecting to the custormer index.php
 Route::get('/custormer/index', [ProductController::class, 'custormershow'])->name('custormer.index');
+
+Route::get('/custormer/index', [ProductController::class, 'newarrivals'])->name('custormer.index');

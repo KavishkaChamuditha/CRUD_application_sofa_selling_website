@@ -19,6 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
 
     <script>
     const burger = document.querySelector('.burger');
@@ -32,5 +34,48 @@
 </head>
 <body>
     
+    @yield('content')
+    
+    <footer>
+
+        <h1 class="fottertext">Let's work <br>
+            together</h1>
+           
+        <div class="d-flex flex-row-reverse">
+         <img class="fotterimg p-2" src="{{ URL ('images/letswork.jpg') }}" alt="">
+        </div>
+
+
+        <div class="address-container">
+            <div class="left-column">
+        <h2 class="p-2 text-light addrestxt" style="">Address</h2>
+        </div>
+
+        <div class="right-column">
+            <p class="text-light marginaddres">123 Anywhere St., Any City
+                State, Country 12345</p>
+         </div>
+         
+    </div>
+    
+
+<br>
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+    </footer>
 </body>
 </html>

@@ -67,9 +67,7 @@ class ProductController extends Controller
 
     }
 
-    /**
-     * Display the specified resource.
-     */
+    // showing the products in the employee side 
     public function show()
     {
         // watch all the data is showing or not 
@@ -80,23 +78,27 @@ class ProductController extends Controller
         //return view('products.list');
     }
 
+    // showing the products in custormer.index file all products 
     public function custormershow()
     {
-        // watch all the data is showing or not 
-        // return Product ::all();
-        //storing data in a variable 
         $data = Product::all();
-        return view('custormer.index', ['products' => $data]); 
-        //return view('products.list');
+        return view('custormer.index', ['products' => $data]);     
     }
 
+    // showing the products in custormer.index file only new arrivals  
+    public function newarrivals()
+    {
+        $newArrivals = Product::where('category', 'new_arrivales')->get();
+        $products = Product::all();
+        return view('custormer.index', ['newArrivals' => $newArrivals, 'products' => $products]);
+    }
+    
 
-
+    // showing each product one by one
     public function productview(Product $product)
     {   
     return view('products.productview', compact('product'));
     }
-
 
     /**
      * Show the form for editing the specified resource.
