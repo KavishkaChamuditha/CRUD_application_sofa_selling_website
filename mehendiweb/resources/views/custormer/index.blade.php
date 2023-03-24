@@ -34,7 +34,8 @@
 <div class="container">
   <div class="row"> 
 
-      
+  @foreach ($products as $product)
+    
   <div class="col-lg-4 col-md-4">     
     <div class="card card-clr" style="width:20rem;">
       <button class="btn btn-danger btncart">
@@ -43,50 +44,14 @@
       <button class="btn btn-danger btnwishlist">
         <i class="fa-solid fa-heart" style="font-size: 30px;"></i>
       </button>
-      <img class="cardimg" src="{{ URL ('images/sofathree.jpg') }}" alt="" >
+      <img class="cardimg" src="{{ asset('uploads/productsImg/'.$product->image) }}" alt="" >
     <div class="card-body">
       <button class="btn btn-danger btnbuy">Buy Now</button>
-      <h5 class="card-title text-center fontsize">Drink One Coffee</h5>
+      <h5 class="card-title text-center fontsize">{{ $product -> pro_name }}</h5>
     </div>
     </div>
   </div>
-
-  
-  <div class="col-lg-4 col-md-4">     
-    <div class="card card-clr" style="width:20rem;">
-      <button class="btn btn-danger btncart">
-        <i class="fa fa-shopping-cart"  style="font-size: 30px;"></i>
-      </button> 
-      <button class="btn btn-danger btnwishlist">
-        <i class="fa-solid fa-heart" style="font-size: 30px;"></i>
-      </button>
-      <img class="cardimg" src="{{ URL ('images/sofathree.jpg') }}" alt="" >
-    <div class="card-body">
-      <button class="btn btn-danger btnbuy">Buy Now</button>
-      <h5 class="card-title text-center fontsize">Drink One Coffee</h5>
-    </div>
-    </div>
-  </div>
-
-  
-   
-  <div class="col-lg-4 col-md-4">     
-    <div class="card card-clr" style="width:20rem;">
-       <button class="btn btn-danger salebtn">S <br> a <br> l <br> e 20%</button> 
-      <button class="btn btn-danger btncart">
-        <i class="fa fa-shopping-cart"  style="font-size: 30px;"></i>
-      </button> 
-      <button class="btn btn-danger btnwishlist">
-        <i class="fa-solid fa-heart" style="font-size: 30px;"></i>
-      </button>
-      <img class="cardimg" src="{{ URL ('images/sofathree.jpg') }}" alt="" >
-    <div class="card-body">
-      <button class="btn btn-danger btnbuy">Buy Now</button>
-      <h5 class="card-title text-center fontsize">Drink One Coffee</h5>
-    </div>
-    </div>
-  </div>
-
+  @endforeach  
 
 </div>
 </div>

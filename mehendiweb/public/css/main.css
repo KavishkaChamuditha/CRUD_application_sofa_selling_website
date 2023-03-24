@@ -9,6 +9,20 @@ body{
   background-color: #141311 !important;
 } 
 
+.card-border{
+  border-radius: 20px !important;
+  background-color: #231103 !important;
+}
+
+.btn-midddle{
+  background: #D89254 !important;
+  width: 200px !important;
+  height: 40px;
+  font-size: 20px !important;
+  color: #fff !important;
+
+}
+
 /* banner code start from here */
 .textclr{
   color: #D89254 !important;
@@ -122,8 +136,9 @@ body{
 /* cards codes start from here */
 .card-clr{
   border: none !important; 
-  border: 1px solid #790252 !important;
+  border: 1px solid #088967 !important;
   border-radius: 20px !important;
+  background: none !important;
 }
 
 .cardimg{
@@ -142,6 +157,11 @@ body{
   border-color: #4C0027!important;
   border-radius: 0px 0px 40px 40px !important;
 }
+
+.fontsize{
+  color: #fff;
+}
+
 
 .card:hover .btncart {
   opacity: 1 !important;

@@ -49,3 +49,10 @@ Route::resource('products', ProductController::class);
 Route::get('custormer/index', function () {
     return view('custormer.index');
 });
+
+
+//just routing to the list.php file
+Route::get('/custormer/index', [ProductController::class, 'custormershow']);
+
+//redirecting to the list file 
+Route::get('/custormer/index', [ProductController::class, 'custormershow'])->name('custormer.index');

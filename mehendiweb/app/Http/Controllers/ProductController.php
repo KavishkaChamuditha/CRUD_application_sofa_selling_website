@@ -80,6 +80,18 @@ class ProductController extends Controller
         //return view('products.list');
     }
 
+    public function custormershow()
+    {
+        // watch all the data is showing or not 
+        // return Product ::all();
+        //storing data in a variable 
+        $data = Product::all();
+        return view('custormer.index', ['products' => $data]); 
+        //return view('products.list');
+    }
+
+
+
     public function productview(Product $product)
     {   
     return view('products.productview', compact('product'));
