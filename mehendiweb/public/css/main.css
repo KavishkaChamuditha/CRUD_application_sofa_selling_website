@@ -7,7 +7,67 @@
 
 body{
   background-color: #141311 !important;
-} 
+}
+
+hr {
+  height: 3px !important;
+  background-color: #ffffff !important;
+  border: none !important;
+  margin: 10px 0 !important;
+  margin-left: -900px !important;
+}
+
+
+/* nav bar code start from here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none !important;; 
+  height: 100px;
+  color: #fff;
+  position: relative !important;
+}
+
+nav .logo {
+  width: 140px !important;
+  margin-top: -20px;
+}
+
+nav .nav-links {
+  margin-top: -90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-links li {
+  list-style: none !important;
+  margin-left: 200px;
+}
+
+nav .nav-links a {
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 18px !important;
+}
+
+nav .burger {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav .burger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.5s ease;
+}
 
 .card-border{
   border-radius: 20px !important;
@@ -38,16 +98,16 @@ body{
 }
 
 .adrianafurniture{
-  font-size: 170px;
-  text-align: center;
+  font-size: 170px !important;
+  text-align: center !important;
   color: #FAF2E9 !important;
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif !important;
 }
 
 .imgtext{
-  margin-top: 350px;
+  margin-top: 350px !important;
   color: #FAF2E9 !important;
-  margin-left: 20px; 
+  margin-left: 20px !important; 
 }
 
 .ptext{
@@ -221,12 +281,14 @@ body{
 
 .addrestxt{
   /* margin-top: -10px !important; */
-  margin-top: 30px;
-  margin-left: 1000px !important;
+   margin-top: 30px;
+   margin-left: -300px !important; 
+   font-size: 20px !important;
 }
 
 .address-container {
   display: flex;
+  margin-left: 1630px !important;
 }
 
 .left-column,
@@ -237,6 +299,8 @@ body{
 
 .marginaddres{
   margin-top: 50px;
+  margin-left: -930px;
+  font-size: 20px !important;
 }
 
 
@@ -309,7 +373,6 @@ body{
   width: 60px;
   border-radius: 20px 0px 0px 0px !important;
 }
-
 /* cards codes stop from here */
 
 /* responsive codes start from here */
@@ -320,6 +383,7 @@ body{
   width: 390px !important;
   height: 300px;
  }
+ 
 
  .logo{
   width: 100px !important;
@@ -330,8 +394,8 @@ body{
  }
 
  .adrianafurniture{
-  font-size: 20px;
-  margin-top: -20px;
+  font-size: 20px !important;
+  margin-top: -20px !important;
  }
 
  .abutheading{
@@ -362,8 +426,8 @@ body{
  }
 
  .imgtext{
-  margin-top: 10px;
-  font-size: 20px;
+  margin-top: 10px !important;
+  font-size: 20px !important;
  }
 
  .ptext{
@@ -448,6 +512,7 @@ body{
   height: 300px !important;
   width: 390px !important;
 }
+/* footer code start from here */
 
 .fotterimg{
   margin-top: 30px !important;
@@ -477,6 +542,8 @@ body{
 
 }
 
+/* footer codes stop from here */
+}
 
 /* Tablets */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -489,60 +556,8 @@ body{
 }
 /* responsive codes stop from here */
 
-
-
-/* nav bar code start from here */
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* background-color: #322019;  */
-  height: 100px;
-  color: #fff;
-  /* position: relative !important; */
-}
-
-nav .logo {
-  width: 140px !important;
-  margin-top: -20px;
-}
-
-nav .nav-links {
-  margin-top: -90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav .nav-links li {
-  list-style: none !important;
-  margin-left: 200px;
-}
-
-nav .nav-links a {
-  color: #fff !important;
-  text-decoration: none !important;
-  font-size: 18px !important;
-}
-
-nav .burger {
-  display: none;
-  cursor: pointer;
-  position: absolute;
-  right: 5%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-nav .burger .line {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 5px;
-  transition: all 0.5s ease;
-}
-
 @media screen and (max-width: 768px) {
+
   nav .nav-links {
     position: fixed;
     right: 0px;
@@ -577,4 +592,3 @@ nav .burger .line {
 }
 /* nav bar code finish from here */
 
-}

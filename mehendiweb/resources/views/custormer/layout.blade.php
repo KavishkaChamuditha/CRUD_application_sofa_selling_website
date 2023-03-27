@@ -13,6 +13,7 @@
     <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     {{-- fonts  --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+   
 
     <script>
     const burger = document.querySelector('.burger');
@@ -46,97 +49,140 @@
         </div>
 
         <div class="address-container">
-            <div class="left-column">
-        <h2 class="p-2 text-light addrestxt" style="">Address</h2>
-        <h2 class="p-2 text-light addrestxt" style="">Phone</h2>
-        <h2 class="p-2 text-light addrestxt" style="">Email</h2>
+          <div class="left-column">
+            <hr >
+            <h2 class="p-2 text-light addrestxt">123 Anywhere St., Any City State, Country 12345</h2>
+            <hr>
+            <h2 class="p-2 text-light addrestxt">(123) 456 7890</h2>
+            <hr>
+            <h2 class="p-2 text-light addrestxt">hello@reallygreatsite.com</h2>
+            <hr>
+          </div>
+          <div class="right-column">
+            <p class="text-light marginaddres">Address</p>
+            <p class="text-light marginaddres">Phone</p>
+            <p class="text-light marginaddres">Email</p>
+          </div>
         </div>
-
-        <div class="right-column">
-            <p class="text-light marginaddres">123 Anywhere St., Any City
-                State, Country 12345</p>
-            <p class="text-light marginaddres" style="margin-top: 60px;">(123) 456 7890</p>
-            <p class="text-light marginaddres" style="margin-top: 62px;">hello@reallygreatsite.com</p>
-         
-        </div> 
+        
          
     </div>
     
-    <section class="">
-        <!-- Footer -->
-        <footer class=" text-white text-center fotter">
-          <!-- Grid container -->
-          <div class="container p-4">
-            <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Footer Content</h5>
-      
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                  molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                  aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                </p>
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-      
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!" class="text-white">Link 1</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 2</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 3</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 4</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">Links</h5>
-      
-                <ul class="list-unstyled">
-                  <li>
-                    <a href="#!" class="text-white">Link 1</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 2</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 3</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Link 4</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-          </div>
-          <!-- Grid container -->
-      
-          <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-          </div>
-          <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
-      </section>
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-light">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
 
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Arden Furniture
+          </h6>
+          <p>
+            Arden Furniture is a leading manufacturer of high-quality sofa sets, located in Sri Lanka. We offer a wide range of products that cater to different styles and preferences.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">New Arrivales</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Most Selling</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Sales</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Sofa sets for
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">House</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Office</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Room</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Theater Room</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i>123 Anywhere St., Any City
+            State, Country 12345</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> (123) 456 7890</p>
+          <p><i class="fas fa-print me-3"></i> hello@reallygreatsite.com</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">ArdenFurniture.com</a>
+  </div>
+<!-- Footer -->
     </footer>
+    
 </body>
 </html>

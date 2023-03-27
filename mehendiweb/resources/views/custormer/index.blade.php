@@ -117,13 +117,12 @@
       </div>
     </div>
 
-    <h1 class="abutheading">About <br> <div class="usfont"> Us</div> </h1>
+    <h1 data-aos="zoom-in" class="abutheading">About <br> <div class="usfont"> Us</div> </h1>
 
-    <img class="aboutusimg" src="{{ URL ('images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg') }}" alt="" style="width:900px;">
+    <img class="aboutusimg data-aos="fade-up-left" " src="{{ URL ('images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg') }}" alt="" style="width:900px;">
       <p class="text-light text-end textaboutus">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Earum dolor eligendi, molestiae accusamus tempore officia suscipit</p>
 
       <p class="text-light text-end textaboutus">Lorem ipsum dolor sit amet, consectetur adipisicing molestiae<br> accusamus tempore officia suscipit itaque voluptates exceptur</p>
-
 
       <h1 class="selectxt">Selected <br> <div class="workstxt"> Works </div></h1>
         <h3 class="text-iight besttext">Best Sofa set's in Sri Lanka</h3>
@@ -139,7 +138,11 @@
     <p class="text-light textmargin">At the client's request, the project theme was minimalist and modern. </p> 
     {{-- two section images codes stops from here --}}
     
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>    
     @section('content')
     
     @endsection
+    
