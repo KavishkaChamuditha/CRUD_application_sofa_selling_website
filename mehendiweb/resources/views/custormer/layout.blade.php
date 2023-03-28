@@ -41,7 +41,7 @@
     
     <footer>
 
-        <h1 class="fottertext">Let's work <br>
+        <h1 data-aos="fade-up" class="fottertext">Let's work <br>
             together</h1>
            
         <div class="d-flex flex-row-reverse">
@@ -51,17 +51,17 @@
         <div class="address-container">
           <div class="left-column">
             <hr >
-            <h2 class="p-2 text-light addrestxt">123 Anywhere St., Any City State, Country 12345</h2>
+            <h2 class="p-2 text-light addrestxt" data-aos="fade-up">123 Anywhere St., Any City State, Country 12345</h2>
             <hr>
-            <h2 class="p-2 text-light addrestxt">(123) 456 7890</h2>
+            <h2 class="p-2 text-light addrestxt" data-aos="fade-up">(123) 456 7890</h2>
             <hr>
-            <h2 class="p-2 text-light addrestxt">hello@reallygreatsite.com</h2>
+            <h2 class="p-2 text-light addrestxt" data-aos="fade-up">hello@reallygreatsite.com</h2>
             <hr>
           </div>
           <div class="right-column">
-            <p class="text-light marginaddres">Address</p>
-            <p class="text-light marginaddres">Phone</p>
-            <p class="text-light marginaddres">Email</p>
+            <p class="text-light marginaddres" data-aos="fade-up">Address</p>
+            <p class="text-light marginaddres" data-aos="fade-up">Phone</p>
+            <p class="text-light marginaddres" data-aos="fade-up">Email</p>
           </div>
         </div>
         
@@ -73,7 +73,7 @@
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
+    <div class="me-5 d-none d-lg-block" data-aos="fade-up">
       <span>Get connected with us on social networks:</span>
     </div>
     <!-- Left -->
@@ -81,19 +81,19 @@
     <!-- Right -->
     <div>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
+        <i  data-aos="fade-up" class="fab fa-facebook-f"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
+        <i  data-aos="fade-up" class="fab fa-twitter"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
+        <i  data-aos="fade-up" class="fab fa-google"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
+        <i  data-aos="fade-up" class="fab fa-instagram"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
+        <i  data-aos="fade-up" class="fab fa-linkedin"></i>
       </a>
     </div>
     <!-- Right -->
@@ -108,10 +108,10 @@
         <!-- Grid column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Arden Furniture
+          <h6  data-aos="fade-up" class="text-uppercase fw-bold mb-4">
+            <i  data-aos="fade-up" class="fas fa-gem me-3"></i>Arden Furniture
           </h6>
-          <p>
+          <p data-aos="fade-up">
             Arden Furniture is a leading manufacturer of high-quality sofa sets, located in Sri Lanka. We offer a wide range of products that cater to different styles and preferences.
           </p>
         </div>
@@ -124,13 +124,13 @@
             Products
           </h6>
           <p>
-            <a href="#!" class="text-reset">New Arrivales</a>
+            <a data-aos="fade-up" href="#!" class="text-reset">New Arrivales</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Most Selling</a>
+            <a data-aos="fade-up" href="#!" class="text-reset">Most Selling</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Sales</a>
+            <a data-aos="fade-up" href="#!" class="text-reset">Sales</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -138,20 +138,20 @@
         <!-- Grid column -->
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
+          <h6 data-aos="fade-up" class="text-uppercase fw-bold mb-4">
             Sofa sets for
           </h6>
           <p>
-            <a href="#!" class="text-reset">House</a>
+            <a data-aos="fade-up" href="#!" class="text-reset">House</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Office</a>
+            <a data-aos="fade-up" href="#!" class="text-reset">Office</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Room</a>
+            <a data-aos="fade-up" href="#!" class="text-reset">Room</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Theater Room</a>
+            <a data-aos="fade-up" href="#!" class="text-reset">Theater Room</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -159,15 +159,15 @@
         <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i>123 Anywhere St., Any City
+          <h6 data-aos="fade-up" class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p data-aos="fade-up"><i class="fas fa-home me-3"></i>123 Anywhere St., Any City
             State, Country 12345</p>
           <p>
-            <i class="fas fa-envelope me-3"></i>
+            <i  data-aos="fade-up" class="fas fa-envelope me-3"></i>
             info@example.com
           </p>
-          <p><i class="fas fa-phone me-3"></i> (123) 456 7890</p>
-          <p><i class="fas fa-print me-3"></i> hello@reallygreatsite.com</p>
+          <p data-aos="fade-up"><i data-aos="fade-up" class="fas fa-phone me-3"></i> (123) 456 7890</p>
+          <p data-aos="fade-up"><i data-aos="fade-up" class="fas fa-print me-3"></i> hello@reallygreatsite.com</p>
         </div>
         <!-- Grid column -->
       </div>
