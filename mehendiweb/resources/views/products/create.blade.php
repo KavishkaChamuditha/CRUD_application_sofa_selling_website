@@ -6,6 +6,7 @@
     <title>Create</title>
 </head>
 
+{{ dd(Auth::user()) }}
     <div class="container">
     <div class="row"> 
 

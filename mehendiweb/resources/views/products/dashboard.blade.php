@@ -68,37 +68,32 @@
   <div class="my-element"></div>
   <div class="row">
     <div class="col-lg-6 col-md-6">
-      <div class="image-with-text cardmargin">
-        <img class="borderimg" src="{{ URl('images/1.jpg') }}" alt="Image" style="width:420px; height:300px;">
-        <p class="text-light colortext">Add Product</p>
+      <div class="image-with-text cardmargin">       
+          <div class="btn dashboardbtn">Add Products</div>
       </div>
     </div>
 
     <div class="col-lg-6 col-md-6">
       <div class="image-with-text cardmargin">
-        <img class="borderimg" src="{{ URl('images/2.jpg') }}" alt="Image" style="width:420px; height:300px;">
-        <p class="text-light colortext">Edit Products</p>
+        <div class="btn dashboardbtn">Update Products</div>
       </div>
     </div>
   </div>
 
   <div class="row">
     <div class="col-lg-6 col-md-6">
-      <div class="image-with-text cardmargin">
-        <img class="borderimg" src="{{ URl('images/3.jpg') }}" alt="Image" style="width:420px; height:300px;">
-        <p class="text-light colortext">Search Products</p>
+      <div class="image-with-text cardmargin">       
+        <div class="btn dashboardbtn">Search Products</div>
       </div>
     </div>
 
     <div class="col-lg-6 col-md-6">
-      <div class="image-with-text cardmargin">
-        <img class="borderimg" src="{{ URl('images/4.jpg') }}" alt="Image" style="width:420px; height:300px;">
-        <p class="text-light colortext">Remove Products</p>
+      <div class="image-with-text cardmargin">       
+        <div class="btn dashboardbtn">Remove Products</div>
       </div>
     </div>
   </div>
 </div>
-
 
       </main>
 

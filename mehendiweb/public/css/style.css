@@ -1,5 +1,3 @@
-
-
 *{
   margin: 0;
   padding: 0;
@@ -23,10 +21,27 @@
   background-image: url("/asset/Untitled_design.png");
 }
 
-
 .bcolor{
   background-color: #111111 !important;
 } 
+
+.dashboardbtn{
+  background-color: none !important;
+  color: rgb(255, 255, 255) !important;
+  width: 230px;
+  height: 50px;
+  font-size: 20px !important;
+  text-align: center !important;
+  border-radius: 10px !important;
+  border-color: #fcfcfc !important;
+}
+
+.dashboardbtn:hover{
+  background-color: white !important;
+  border-color: 20px !important;
+  color: #000 !important;
+}
+
 
 /* card codes start from here */
 .image-with-text p {

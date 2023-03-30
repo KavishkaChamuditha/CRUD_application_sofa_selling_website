@@ -58,3 +58,6 @@ Route::get('/custormer/index', [ProductController::class, 'custormershow']);
 Route::get('/custormer/index', [ProductController::class, 'custormershow'])->name('custormer.index');
 
 Route::get('/custormer/index', [ProductController::class, 'newarrivals'])->name('custormer.index');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
